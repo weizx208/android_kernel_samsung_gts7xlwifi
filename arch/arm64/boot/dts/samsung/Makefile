@@ -25,7 +25,7 @@ $(eval $(call sec_dtbo_build, \
 
 endif
 
-
+dts-dirs += gts7xl
 
 always          := $(dtb-y)
 subdir-y        := $(dts-dirs)
